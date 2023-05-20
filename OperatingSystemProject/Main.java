@@ -2,7 +2,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 class PhoneStation {
-    //Lock nesneleri oluşturdum.
+    //Lock nesneleri oluşturdum.,
     private Lock lady1 = new ReentrantLock();
     private Lock lady2 = new ReentrantLock();
     private Lock line1 = new ReentrantLock();
